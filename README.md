@@ -1,4 +1,4 @@
-# Leakage-Free ML Framework for Soft Clay Stabilization
+# A Leakage-Free Machine Learning Framework for Predicting Continuous Stress-Strain Behavior of Alkali-Stabilized Soft Clay
 
 ## Overview
 This repository contains the dataset, source code, and pre-trained models for the research article: **"A Leakage-Free Machine Learning Framework for Predicting Continuous Stress-Strain Behavior of Alkali-Stabilized Soft Clay."** The primary objective of this project is to address the severe "data leakage" problem commonly caused by random row-wise data splitting in geotechnical machine learning studies. By implementing a sample-based cross-validation strategy (`GroupKFold`) and engineering physical polynomial features (ε² and ε³), the proposed Artificial Neural Network (ANN) successfully maps the non-linear, continuous stress-strain evolution and post-peak softening behavior of NaOH- and KOH-stabilized clays.
