@@ -19,5 +19,14 @@ To strictly comply with open-source sharing policies while keeping the repositor
 This script loads a tiny subset of the dataset (first 200 rows) and trains a miniature version of the Ultimate ANN framework in less than a second.
 
 1. Ensure all requirements are installed:
-   ```bash
    pip install pandas numpy scikit-learn openpyxl
+
+2. Open your terminal or command prompt in the repository folder.
+
+3. Run the following command:
+   python quick_test.py
+
+4. The console will output successful execution messages and dummy stress predictions, confirming the code, data pipeline, and environment are fully functional.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
